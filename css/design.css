@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap');
+
+
+
+*{
+	margin: 0;
+	padding: 0;
+}
+body,h1,h2,h3,h4,h5,h6,p,span,input,button{
+	font-family: 'Playfair Display',serif; 
+}
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+/*========Header part design========*/
+a,a:hover{
+	text-decoration: none;
+}
+.header{
+	height: 100%;
+	display: flow-root;
+}
+
+.nav-bar{
+	width: 100%;
+	float: left;
+	padding: 30px 0px;
+}
+.logo{
+	width: 20%;
+	float: left;
+	text-align: left;
+}
+.menu-item{
+	width: 80%;
+	float: right;
+	text-align: right;
+}
+.menu-item ul li{
+	list-style: none;
+	margin-left: 52px;
+	display: inline-block;
+	
+}
+.menu-item ul li a {
+	text-transform: uppercase;
+	color: #626262;
+}
+.menu-item ul li a:hover{
+	color: black;
+
+}
+/*=======Header part end here=========*/
+
+/*========Banner part start here=======*/
+
+.banner{
+	width: 100%;
+	display: flow-root;
+}
+.post-content{
+	    padding: 50px;
+}
+.category{
+	text-transform: uppercase;
+	color: #b4ad9e;
+}
+.title{
+	color: #626262;
+	margin: 25px 0;
+}
+.description{
+	color: #626262;
+	margin-bottom: 42px;
+}
+.comment{
+	text-transform: uppercase;
+	color: #b4ad9e;
+}
+/*========Banner part end here=======*/
+
+/*=========Post Gallery part start here===*/
+
+.post-gallery{
+	width: 100%;
+	display: flow-root;
+}
+.gallery{
+	    padding: 48px;
+	    display: flow-root;
+}
+.post{
+	width: 100%;
+	float: left;
+}
+.left{
+	width: 48%;
+	float: left;
+	color: #626262;
+}
+.right{
+	width: 48%;
+	float: right;
+	color: #626262;
+}
+
+.post .category{
+	margin-top: 24px;
+}
+
+/*=========Post Gallery part end here===*/
+
+/*<!-- Subscription  start here-->*/
+
+.subscription{
+	width: 100%;
+	display: flow-root;
+	background:  #f0f0f0;
+	text-align: center;
+	padding: 60px 0;
+}
+.subscription h1{
+	margin-bottom: 40px;
+}
+form input{
+	padding: 15px 0px;
+    width: 380px;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid black;
+}
+form input:focus{
+	outline: none;
+}
+
+form{
+	position: relative;
+}
+form i{
+	position: absolute;
+	top: 18px;
+    right: 390px;
+ 	  
+}
+
+
+	
+/*<!-- Subscription  end here-->*/
+/*=======button=========*/
+.load-more{
+	text-align: center;
+	margin: 30px 0;
+}
+.load-more button{
+	padding: 20px 40px;
+    background: transparent;
+    border: none;
+    border: 1px solid black;
+    font-size: 20px;
+}
+
+/*=======button=========*/
+
+.footer{
+	width: 100%;
+	display: flow-root;
+	background:  #f0f0f0;
+	padding: 5px 0;
+}
+
+.left-1{
+	float: left;
+	text-align: left;
+	
+
+}
+.left-1 ul li {
+	list-style: none;
+	display: inline-block;
+	margin-left: 45px;
+	
+}
+.left-1 ul li a {
+color: #626262;
+
+}
+.left-1 ul li a:hover{
+	color: green;
+}
+.right-1{
+	float: right;
+	text-align: right;
+}
+.right-1 ul li{
+	list-style: none;
+	display: inline-block;
+	margin-right: 20px;
+}
+.right-1 ul li a {
+color: #626262;
+
+}
+.right-1 ul li a:hover{
+	color: green;
+}
